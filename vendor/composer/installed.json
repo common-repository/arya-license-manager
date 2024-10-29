@@ -1,0 +1,38 @@
+[
+    {
+        "name": "aryathemes/wp-list-table",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/aryathemes/wp-list-table.git",
+            "reference": "637a80195873f8ecce80d03339a349ea9d504247"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/aryathemes/wp-list-table/zipball/637a80195873f8ecce80d03339a349ea9d504247",
+            "reference": "637a80195873f8ecce80d03339a349ea9d504247",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.6 || ^7.0"
+        },
+        "time": "2019-05-24T19:44:21+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Arya\\WordPress\\Admin\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "description": "Base class for displaying a list of items in an ajaxified HTML table.",
+        "keywords": [
+            "WP_List_Table",
+            "wordpress"
+        ]
+    }
+]

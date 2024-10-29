@@ -1,0 +1,19 @@
+{
+    "name": "aryathemes/wp-list-table",
+    "type": "library",
+    "description": "Base class for displaying a list of items in an ajaxified HTML table.",
+    "version": "1.0.0",
+    "license": "GPL-2.0-or-later",
+    "keywords": [
+        "wordpress",
+        "WP_List_Table"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Arya\\WordPress\\Admin\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^5.6 || ^7.0"
+    }
+}
